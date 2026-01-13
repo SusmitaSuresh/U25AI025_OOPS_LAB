@@ -18,7 +18,7 @@ abstract class Numbers implements Operation{    //we can't create objects of thi
 }
 class NumbOper extends Numbers{
     NumbOper(int a, int b, int c){
-        super(a, b, c);                         //creates constructor to get values a,b,c from Numbers class (still dk why its not there automatically as its child and inherits)
+        super(a, b, c);                         //creates constructor to get values a,b,c from Numbers class (still dk why its not there automatically as its child and inherits::NOT TAUGHT YET)
     }
     public void sum()
     {
@@ -69,3 +69,4 @@ public class lab1_pr3 {
         sc.close();  
     }
 }
+
