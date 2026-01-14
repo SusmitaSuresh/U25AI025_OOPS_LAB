@@ -1,4 +1,5 @@
-import java.util.Scanner;  //importing package which has Scanner class.
+package lab1programs;    //all the files in this folder in pc can be added to this package and all the classes in these packages can be imported to every file
+import java.util.Scanner;  //importing package which has a a file with Scanner class.
 public class lab1_pr1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);    //initialising scanner
@@ -10,3 +11,4 @@ public class lab1_pr1 {
         sc.close();
     }
 }
+
